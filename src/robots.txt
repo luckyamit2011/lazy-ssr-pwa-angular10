@@ -1,0 +1,4 @@
+User-Agent: *
+disallow: /downloads/
+
+Sitemap: https://lazy-ssr-pwa.herokuapp.com/sitemap.xml

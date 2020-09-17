@@ -1,0 +1,17 @@
+$sx-gray: #F2F2F2;
+$sx-blue: #2f5496;
+$sx-green: #7CBA01;
+$sx-light-green:#C5E09B;
+$sx-lightest-green:#d1dcc1;
+$sx-white: #fff;
+$sx-black: #000;
+$header-height: 50px;
+
+$theme-colors: (
+  "blue" :        $sx-blue,
+  "green":        $sx-green,
+  "light-green":  $sx-light-green,
+  "gray" :        $sx-gray,
+  "white":        $sx-white,
+  "black":        $sx-black,
+);

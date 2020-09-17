@@ -1,0 +1,118 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import './scss/variable';
+@import './scss/looks';
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * * * * * The Spacex program Theaming * * * * * * 
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 5px 0;
+}
+
+header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: $header-height;
+  display: flex;
+}
+
+.container{
+  max-width: 1440px; 
+  padding: 12px;
+  margin: 0 auto;
+}
+.main{margin-top: $header-height;}
+.sticky-container{
+  position: sticky;
+  top: 60px;
+}
+.sidebar,.card {
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  flex-direction: column;
+  box-sizing: border-box;
+  display: flex;
+}
+.sidebar{margin:1rem 1rem 1rem 0.5rem}
+.sidebar h2 {
+  text-align: left;
+  margin: 0;
+}
+.sidebar h4 {
+  font-weight: 500;
+  border-bottom: 2px solid #ccc;
+  margin: 0 auto;
+  font-size: 1.1rem;
+  padding: 10px 0px;
+  text-align: center;
+  margin-bottom: .5rem;
+  
+}   
+.card img{
+  width: 100%;  
+  max-height: 238px;
+}
+.card ul{margin-top: 0px; margin-bottom: 5px;color: $sx-blue;padding-left: 2rem;}
+.card h2{font-size: 1.17em;}
+.card h3{color:$sx-black;}
+.card h4 span{
+  color: $sx-blue;
+  font-size: initial;
+  font-weight: initial;
+}
+ h1.title{font-size: 20px; margin: 0.5rem 0 0 1.2rem}
+.btn{
+  padding: 0.3rem 1rem;
+  margin: 0.6rem auto;
+  border-radius: 6px;
+  background-color: $sx-light-green;
+  border: 1px solid $sx-lightest-green;
+  cursor: pointer;
+  outline: none;
+  font-size: 16px;
+  font-weight: 500;
+}
+.btn.active, .btn:hover, .btn :focus{
+ background-color: #7CBA01;
+ outline: none;
+ transform: translateY(-2px);
+ box-shadow: 0 4px 17px rgba(0, 0, 0, 0.35);
+}
+.text-center {
+  text-align: center;
+}
+.clear-filter{
+  float: right;
+  }
+.clear-filter img{width: 23px;}  
+.h-100{height: 100%;} 
+.mt-0{margin-top: 0 !important;}
+.mt-1{margin-top: .5rem !important;}
+.mb-2{margin-bottom: 1rem !important;}
+.mb-3{margin-bottom: 1rem;}
+.mb-4{margin-bottom: 1.5rem;}
+.mx-1{margin-left: .5rem !important;margin-right: .5rem !important;}
+.pb-0{padding-bottom: 0 !important;}
+.p-2{padding: 1rem !important} 
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+* * * * * * * * * * End of Theaming * * * * * * * * * * * 
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+// Utils
+@import './scss/loader';
+@import './scss/responsice';
