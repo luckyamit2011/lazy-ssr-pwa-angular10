@@ -1,4 +1,4 @@
-# SpaceX - Lazy SSR PWA (Angular 10)
+# Lazy SSR PWA (Angular 10)
 
 > This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.1.
 > Its Angular 10 front-end application with API call, Server side rendering (ssr), Lazy loading modules,Lazy load images and PWA Features.
